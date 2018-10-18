@@ -52,7 +52,7 @@ public class Matrix_lib
 		
 		for( int i = 0 ; i < a.length ; i ++ )
 		{
-			answer[ i ] = this.getInnerProduct( a[ i ] , b );
+			answer[ i ] = this.getInnerProduct( b , a[ i ] );
 		}
 		
 		return answer;
